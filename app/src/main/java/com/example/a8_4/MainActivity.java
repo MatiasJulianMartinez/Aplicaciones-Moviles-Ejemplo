@@ -1,6 +1,8 @@
 package com.example.a8_4;
 
 import android.os.Bundle;
+import android.util.Log;
+import android.view.View;
 
 import androidx.activity.EdgeToEdge;
 import androidx.appcompat.app.AppCompatActivity;
@@ -9,6 +11,10 @@ import androidx.core.view.ViewCompat;
 import androidx.core.view.WindowInsetsCompat;
 
 public class MainActivity extends AppCompatActivity {
+
+    public void sendMessage(View view){
+        Log.i("app-testing","sendMessage esta funcionando");
+    }
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
